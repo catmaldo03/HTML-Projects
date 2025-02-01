@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="todo">
+        <h2>To-do list</h2>
+        <div class ="input">
+            <input type="text" class="todoInput" id="todoInput" placeholder="Add a task">
+        </div>
+        <ul>
+            <li id="todoList">
+
+            </li>
+        </ul>
+        <div>
+            <hr class="counter"/>
+            <div class="counter-contaier">
+                <p><span>0</span> items total</p>
+                <button id="deleteButton">Delete All</button>
+            </div>
+        </div>
+        <button class="btn">Add</button>
+    </section>
+    <footer>
+        <div class="footer">
+            <p class="made-by">Made by</p>
+            <p class="author">Catalina Maldonado</p>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
