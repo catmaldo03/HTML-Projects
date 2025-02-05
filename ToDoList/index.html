@@ -9,10 +9,16 @@
 <body>
     <section class="todo">
         <h2>To-do list</h2>
-        <div class ="input">
-            <input type="text" class="todoInput" id="todoInput" placeholder="Add a task">
-        </div>
-        <ul>
+        <div class="input">
+            <input
+              type="text"
+              class="input-field"
+              id="todoInput"
+              placeholder="Add a new todo"
+            />
+            <button class="btn">Add</button>
+          </div>
+        <ul class="scroll">
             <li id="todoList">
 
             </li>
@@ -20,11 +26,10 @@
         <div>
             <hr class="counter"/>
             <div class="counter-contaier">
-                <p><span>0</span> items total</p>
+                <p><span  id="todoCount">0</span> items total</p>
                 <button id="deleteButton">Delete All</button>
             </div>
         </div>
-        <button class="btn">Add</button>
     </section>
     <footer>
         <div class="footer">
