@@ -10,6 +10,6 @@ Calculadora simple que permite sumar, dividir, restar y multiplicar numeros.
 ## To-Do List
 Nombre de carpeta: ToDoList
 
-Fecha de realizacion: 31/01/2025 -> ????
+Fecha de realizacion: 31/01/2025 -> 06/02/2025
 
 Una aplicacion de To Do List
